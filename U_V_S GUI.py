@@ -56,6 +56,7 @@ def signup():
     email= StringVar()
     password=StringVar()
     confirm_password=StringVar()
+ # This give syntax error, that is what we want to fix
     user_name = Label(Win1, text="NAME:").place(x=10, y=10)
     user_mail = Label(Win1, text="EMAIL:").place(x=10, y=40)
     user_pass = Label(Win1, text="PASSWORD:").place(x=10, y=70)
